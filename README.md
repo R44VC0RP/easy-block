@@ -37,6 +37,10 @@ The extension:
 - `content.js` - Main logic: adds buttons, handles clicks, calls APIs
 - `styles.css` - Button styling and animations
 
+## Built With
+
+This extension was built with [OpenCode](https://opencode.ai). View the session: https://opncd.ai/share/vi0jGZL7
+
 ## License
 
 MIT

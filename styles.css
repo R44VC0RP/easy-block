@@ -1,0 +1,35 @@
+/* Easy Block for X - Styles */
+
+/* Block button hover state */
+.easy-block-btn:hover {
+  background-color: rgba(244, 33, 46, 0.1) !important;
+}
+
+.easy-block-btn:hover .easy-block-icon {
+  fill: rgb(244, 33, 46) !important;
+}
+
+/* Loading state */
+.easy-block-btn.loading {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.easy-block-btn.loading .easy-block-icon {
+  animation: easy-block-spin 1s linear infinite;
+}
+
+@keyframes easy-block-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Success state */
+.easy-block-btn.success .easy-block-icon {
+  fill: rgb(0, 186, 124) !important;
+}
+
+/* Error state */
+.easy-block-btn.error .easy-block-icon {
+  fill: rgb(244, 33, 46) !important;
+}
